@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Gelato Popsicles",
+        "price": 5.99,
+        "imgUrl": "/images/pops.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pumpkin",
+        "price": 10.99,
+        "imgUrl":"/images/pumpkin.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Hazelnut",
+        "price": 11.05,
+        "imgUrl": "/images/hazelnut.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Caramel Crumble",
+        "price": 7.99,
+        "imgUrl": "/images/caramel.jpg"
+    }
+]
