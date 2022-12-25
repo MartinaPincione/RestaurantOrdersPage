@@ -26,7 +26,12 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
                         return total + (item?.price || 0) * cartItem.quantity
                     }, 0))}
                 </div>
-                <Button variant="outline-success" size="lg">Checkout</Button>
+                <Link to="/checkout" style={{textDecoration: 'none'}}>
+                    <div className="d-grid gap-2">
+                    <Button variant="outline-success" size="lg">Checkout</Button>
+                    </div>
+                </Link>
+                
             </Stack>
         </Offcanvas.Body>
     </Offcanvas>
